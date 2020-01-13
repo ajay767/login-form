@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC|Sniglet|Zilla+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #0b3b02;
+    opacity: 1;
+}
+body{
+    background: url(bg.png);
+    background-size: cover;
+    text-align: center;
+}
+
+hr{
+    margin: 19px auto;
+    border-style: dotted;
+    height: 10px;
+    border: 0;
+    border-bottom: 10px dotted forestgreen;
+    width: 5%;
+}
+h2{
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+p{
+    font-size: 24px;
+    font-family: 'Sniglet', cursive;
+}
+.navbar-left{
+    display: flex;
+    background-color: rgba(0,0,0, 0.5);
+
+}
+.social-item{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.social-item a:hover{
+    color: green;
+}
+.so-logo{
+    margin: 11px 17px;
+}
+.so-logo:hover{
+    color: #2afc05;
+}
+.logo{
+    margin: 11px 17px;
+}
+.nav-item a{
+    text-decoration: none;
+    font-size: 19px;
+}
+.nav-item a:hover{
+    color: white;
+}
+
+.nav-item{
+    padding: 10px 2px;
+    list-style: none;
+    margin: 8px 6px;
+}
+.top h2{
+    font-size: 46px;
+}
+.form{
+    margin-top: 55px;
+}
+.form-0{
+    display: flex;
+    flex-direction: column;
+}
+.form-item{
+    margin: 22px auto;
+    justify-content: center;
+
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(215, 162, 162);
+    width: 46%;
+    height: 39px;
+}
+.btn{
+    border-radius: 26px;
+    border: 0;
+    background-color: lightgreen;
+    width: 27%;
+    height: 45px;
+    margin: 15px auto;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: lime;
+}
+.form-btn{
+    width: 40%;
+    display: flex;
+    margin: auto;
+}
+::-webkit-input-placeholder{
+    font-family: 'Sniglet', cursive;
+
+color: saddlebrown;
+font-size: 25px;
+margin: 12px;
+
+}
+::-webkit-textarea-placeholder{
+    font-family: 'Sniglet', cursive;
+
+    color:saddlebrown;
+    font-size: 25px;
+}
+.roots
+{
+display: flex;
+}
+.root-item{
+    width: 25%;
+    margin: 10px auto;
+}
+.root-logo{
+    margin: 9px 0px;
+}
+.root-logo:hover{
+    color: #dd0000;
+}
+.contact{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
